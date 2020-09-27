@@ -2,3 +2,5 @@
 .idea
 .qodana
 build
+
+time-travel.*

@@ -1,6 +1,6 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.voml.zen_theme</id>
+    <id>com.github.voml.neo_theme</id>
     <name>Neo Theme</name>
     <vendor>voml</vendor>
     <category>Themes</category>
