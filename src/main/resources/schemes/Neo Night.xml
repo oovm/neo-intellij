@@ -4,7 +4,7 @@
 		<property name="ide">idea</property>
 		<property name="ideVersion">2021.3.2.0.0</property>
 		<property name="created">2020-09-09T12:25:37</property>
-		<property name="modified">2022-01-09T12:25:38</property>
+		<property name="modified">2022-01-11T11:25:23</property>
 	</metaInfo>
 	<option name="LINE_SPACING" value="1.2"/>
 	<option name="EDITOR_FONT_SIZE" value="14"/>
@@ -182,7 +182,7 @@
 				<option name="FOREGROUND" value="f07178"/>
 			</value>
 		</option>
-		<option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes=""/>
+		<option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA"/>
 		<option name="APACHE_CONFIG.ARG_LEXEM">
 			<value>
 				<option name="FOREGROUND" value="98c379"/>
@@ -246,14 +246,38 @@
 				<option name="EFFECT_COLOR" value="2979ff"/>
 			</value>
 		</option>
-		<option name="BNF_KEYWORD">
+		<option name="BNF_ATTRIBUTE">
 			<value>
-				<option name="FOREGROUND" value="1a1f29"/>
+				<option name="FOREGROUND" value="ff5c5c"/>
+				<option name="FONT_TYPE" value="2"/>
 			</value>
 		</option>
-		<option name="BNF_NUMBER">
+		<option name="BNF_EXTERNAL">
 			<value>
-				<option name="FOREGROUND" value="f36e3a"/>
+				<option name="FOREGROUND" value="56b6c2"/>
+			</value>
+		</option>
+		<option name="BNF_KEYWORD">
+			<value>
+				<option name="FOREGROUND" value="c678dd"/>
+				<option name="FONT_TYPE" value="2"/>
+			</value>
+		</option>
+		<option name="BNF_META_RULE">
+			<value>
+				<option name="FOREGROUND" value="61afef"/>
+				<option name="FONT_TYPE" value="2"/>
+			</value>
+		</option>
+		<option name="BNF_PATTERN">
+			<value>
+				<option name="FOREGROUND" value="98c379"/>
+				<option name="FONT_TYPE" value="2"/>
+			</value>
+		</option>
+		<option name="BNF_RULE">
+			<value>
+				<option name="FOREGROUND" value="e06c75"/>
 			</value>
 		</option>
 		<option name="BOOKMARKS_ATTRIBUTES">
@@ -323,7 +347,7 @@
 				<option name="FOREGROUND" value="e5c17c"/>
 			</value>
 		</option>
-		<option name="COFFEESCRIPT.GLOBAL_VARIABLE" baseAttributes="JS.GLOBAL_VARIABLE"/>
+		<option name="COFFEESCRIPT.GLOBAL_VARIABLE" baseAttributes=""/>
 		<option name="COFFEESCRIPT.THIS">
 			<value>
 				<option name="FOREGROUND" value="e06c75"/>
@@ -511,7 +535,7 @@
 		</option>
 		<option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING"/>
 		<option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE"/>
-		<option name="Class" baseAttributes=""/>
+		<option name="Class" baseAttributes="CLASS_NAME_ATTRIBUTES"/>
 		<option name="Closure braces">
 			<value>
 				<option name="FOREGROUND" value="a6b2c0"/>
@@ -978,23 +1002,23 @@
 				<option name="FOREGROUND" value="e5c17c"/>
 			</value>
 		</option>
-		<option name="HAML_COMMENT" baseAttributes=""/>
-		<option name="HAML_FILTER" baseAttributes=""/>
-		<option name="HAML_FILTER_CONTENT" baseAttributes=""/>
+		<option name="HAML_COMMENT" baseAttributes="DEFAULT_DOC_COMMENT"/>
+		<option name="HAML_FILTER" baseAttributes="DEFAULT_LABEL"/>
+		<option name="HAML_FILTER_CONTENT" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR"/>
 		<option name="HAML_ID">
 			<value>
 				<option name="FOREGROUND" value="61afef"/>
 			</value>
 		</option>
-		<option name="HAML_RUBY_CODE" baseAttributes=""/>
-		<option name="HAML_RUBY_START" baseAttributes=""/>
-		<option name="HAML_TAG" baseAttributes=""/>
+		<option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT"/>
+		<option name="HAML_RUBY_START" baseAttributes="DEFAULT_KEYWORD"/>
+		<option name="HAML_TAG" baseAttributes="TEXT"/>
 		<option name="HAML_TAG_NAME">
 			<value>
 				<option name="FOREGROUND" value="f07178"/>
 			</value>
 		</option>
-		<option name="HAML_TEXT" baseAttributes=""/>
+		<option name="HAML_TEXT" baseAttributes="TEXT"/>
 		<option name="HAML_XHTML">
 			<value>
 				<option name="FOREGROUND" value="56b6c2"/>
@@ -1370,7 +1394,7 @@
 				<option name="EFFECT_TYPE" value="5"/>
 			</value>
 		</option>
-		<option name="JSP_DIRECTIVE_NAME" baseAttributes=""/>
+		<option name="JSP_DIRECTIVE_NAME" baseAttributes="DEFAULT_KEYWORD"/>
 		<option name="JUPYTER_SELECTED_CELL">
 			<value>
 				<option name="BACKGROUND" value="3a3f4b"/>
@@ -3007,10 +3031,10 @@
 				<option name="FOREGROUND" value="e06c75"/>
 			</value>
 		</option>
-		<option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes=""/>
-		<option name="PROPERTIES.KEY" baseAttributes=""/>
-		<option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes=""/>
-		<option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes=""/>
+		<option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE"/>
+		<option name="PROPERTIES.KEY" baseAttributes="DEFAULT_KEYWORD"/>
+		<option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="DEFAULT_OPERATION_SIGN"/>
+		<option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE"/>
 		<option name="PROTOCOL_REFERENCE">
 			<value>
 				<option name="FOREGROUND" value="219598"/>
@@ -3644,7 +3668,7 @@
 				<option name="EFFECT_TYPE" value="1"/>
 			</value>
 		</option>
-		<option name="STATIC_METHOD_ATTRIBUTES" baseAttributes=""/>
+		<option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD"/>
 		<option name="SUGGESTION">
 			<value>
 				<option name="EFFECT_COLOR" value="59626f"/>
@@ -3659,7 +3683,7 @@
 		</option>
 		<option name="Scala Type Alias" baseAttributes=""/>
 		<option name="Scala Type parameter" baseAttributes=""/>
-		<option name="Static method access" baseAttributes=""/>
+		<option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES"/>
 		<option name="Static property reference ID">
 			<value>
 				<option name="FOREGROUND" value="d19a66"/>
@@ -3875,14 +3899,11 @@
 				<option name="EFFECT_TYPE" value="5"/>
 			</value>
 		</option>
-		<option name="org.rust.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL"/>
-		<option name="org.rust.LIFETIME" baseAttributes="DEFAULT_IDENTIFIER"/>
 		<option name="org.rust.MACRO">
 			<value>
 				<option name="FOREGROUND" value="57b6c2"/>
 			</value>
 		</option>
-		<option name="org.rust.METHOD_CALL" baseAttributes="DEFAULT_FUNCTION_CALL"/>
 		<option name="org.rust.MUT_BINDING">
 			<value>
 				<option name="FOREGROUND" value="d19a66"/>
@@ -3908,7 +3929,6 @@
 				<option name="FONT_TYPE" value="2"/>
 			</value>
 		</option>
-		<option name="org.rust.TYPE_PARAMETER" baseAttributes="DEFAULT_IDENTIFIER"/>
 		<option name="org.rust.UNSAFE_CODE">
 			<value/>
 		</option>
