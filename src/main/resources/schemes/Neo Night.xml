@@ -4,7 +4,7 @@
 		<property name="ide">idea</property>
 		<property name="ideVersion">2021.3.2.0.0</property>
 		<property name="created">2020-09-09T12:25:37</property>
-		<property name="modified">2022-01-11T11:25:23</property>
+		<property name="modified">2022-01-15T16:53:52</property>
 	</metaInfo>
 	<option name="LINE_SPACING" value="1.2"/>
 	<option name="EDITOR_FONT_SIZE" value="14"/>
@@ -278,6 +278,12 @@
 		<option name="BNF_RULE">
 			<value>
 				<option name="FOREGROUND" value="e06c75"/>
+				<option name="FONT_TYPE" value="2"/>
+			</value>
+		</option>
+		<option name="BNF_TOKEN">
+			<value>
+				<option name="FOREGROUND" value="d19a66"/>
 			</value>
 		</option>
 		<option name="BOOKMARKS_ATTRIBUTES">
@@ -1134,7 +1140,7 @@
 		</option>
 		<option name="HTML_ATTRIBUTE_NAME">
 			<value>
-				<option name="FOREGROUND" value="e5c17c"/>
+				<option name="FOREGROUND" value="f07178"/>
 				<option name="FONT_TYPE" value="2"/>
 			</value>
 		</option>
@@ -1142,7 +1148,11 @@
 		<option name="HTML_CODE">
 			<value/>
 		</option>
-		<option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY"/>
+		<option name="HTML_ENTITY_REFERENCE">
+			<value>
+				<option name="FOREGROUND" value="57b6c2"/>
+			</value>
+		</option>
 		<option name="HTML_TAG">
 			<value>
 				<option name="FOREGROUND" value="abb2bf"/>
@@ -1150,7 +1160,8 @@
 		</option>
 		<option name="HTML_TAG_NAME">
 			<value>
-				<option name="FOREGROUND" value="f07178"/>
+				<option name="FOREGROUND" value="e5c17c"/>
+				<option name="FONT_TYPE" value="2"/>
 			</value>
 		</option>
 		<option name="HTTP_REQUEST_PARAMETER_NAME">
@@ -3830,7 +3841,12 @@
 				<option name="EFFECT_TYPE" value="1"/>
 			</value>
 		</option>
-		<option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE"/>
+		<option name="XML_ATTRIBUTE_NAME">
+			<value>
+				<option name="FOREGROUND" value="f07178"/>
+				<option name="FONT_TYPE" value="2"/>
+			</value>
+		</option>
 		<option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY"/>
 		<option name="XML_PROLOGUE" baseAttributes="TEXT"/>
 		<option name="XML_TAG">
@@ -3841,26 +3857,18 @@
 		<option name="XML_TAG_DATA" baseAttributes="TEXT"/>
 		<option name="XML_TAG_NAME">
 			<value>
-				<option name="FOREGROUND" value="e06c75"/>
+				<option name="FOREGROUND" value="e5c17c"/>
 			</value>
 		</option>
-		<option name="XPATH.KEYWORD">
+		<option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL"/>
+		<option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD"/>
+		<option name="XPATH.OPERATION_SIGN">
 			<value>
-				<option name="FOREGROUND" value="a7dbd8"/>
-				<option name="FONT_TYPE" value="1"/>
+				<option name="FOREGROUND" value="61afef"/>
 			</value>
 		</option>
-		<option name="XPATH.NUMBER">
-			<value>
-				<option name="FOREGROUND" value="f25619"/>
-			</value>
-		</option>
-		<option name="XPATH.STRING">
-			<value>
-				<option name="FOREGROUND" value="f36e3a"/>
-				<option name="FONT_TYPE" value="1"/>
-			</value>
-		</option>
+		<option name="XPATH.XPATH_NAME" baseAttributes="TEXT"/>
+		<option name="XPATH.XPATH_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE"/>
 		<option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER"/>
 		<option name="YAML_SCALAR_KEY">
 			<value>
