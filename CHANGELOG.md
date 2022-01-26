@@ -2,6 +2,12 @@
 
 # Neo Changelog
 
+## [0.2.1]
+
+### Changed
+- Improve readability of test files([#2](https://github.com/oovm/neo-intellij/issues/2))
+
+
 ## [0.2.0]
 ### Fixed
 - Fix the problem that bnf keywords are not highlighted ([#1](https://github.com/oovm/neo-intellij/pull/1))
