@@ -2,11 +2,17 @@
 
 # Neo Changelog
 
+## [0.2.2]
+
+### Fixed
+- Wrong compatibility range set when publishing
+- Update to 2022 version `(221.*)`
+
 ## [0.2.1]
 
 ### Changed
 - Improve readability of test files([#2](https://github.com/oovm/neo-intellij/issues/2))
-
+- Update to 2022 version `(220.*)`
 
 ## [0.2.0]
 ### Fixed
