@@ -2,6 +2,11 @@
 
 # Neo Changelog
 
+## [0.2.3]
+
+### Fixed
+- Update to 2022.2 version `(222.*)`
+
 ## [0.2.2]
 
 ### Fixed
