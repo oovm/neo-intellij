@@ -182,7 +182,7 @@
             "nonFocusedState": "false",
             "selectedForeground": "selFg",
             "selectedGrayedForeground": "selFg",
-            "selectionBackground": "cs",
+            "selectionBackground": "hl",
             "selectionForeground": "selFg",
             "selectionGrayForeground": "selFg",
             "selectionInactiveBackground": "hl",
