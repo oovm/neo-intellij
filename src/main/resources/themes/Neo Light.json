@@ -759,7 +759,7 @@
         "Table": {
             "alternativeRowBackground": "cs",
             "background": "bg",
-            "cellNoFocusBorder": "10,5,10,5",
+            "cellNoFocusBorder": "5,5,5,5",
             "disabledForeground": "dis",
             "dropLineColor": "accent",
             "dropLineShortColor": "accent",
