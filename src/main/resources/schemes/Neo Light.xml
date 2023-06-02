@@ -1,10 +1,10 @@
 <scheme name="Neo Light" version="142" parent_scheme="Default">
 	<option name="FONT_SCALE" value="1.0"/>
 	<metaInfo>
-		<property name="ide">idea</property>
-		<property name="ideVersion">2021.3.1.0.0</property>
 		<property name="created">2020-09-09T12:16:00</property>
-		<property name="modified">2022-01-09T12:16:05</property>
+		<property name="ide">idea</property>
+		<property name="ideVersion">2023.3.0.0</property>
+		<property name="modified">2023-09-29T08:16:31</property>
 	</metaInfo>
 	<option name="LINE_SPACING" value="1.2"/>
 	<option name="EDITOR_FONT_SIZE" value="14"/>
@@ -173,11 +173,6 @@
 		<option name="WHITESPACES_MODIFIED_LINES_COLOR" value="eaeaeb"/>
 	</colors>
 	<attributes>
-		<option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
-			<value>
-				<option name="FOREGROUND" value="50a14e"/>
-			</value>
-		</option>
 		<option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
 			<value>
 				<option name="FOREGROUND" value="986801"/>
@@ -265,11 +260,6 @@
 		<option name="BNF_KEYWORD">
 			<value>
 				<option name="FOREGROUND" value="1a1f29"/>
-			</value>
-		</option>
-		<option name="BNF_NUMBER">
-			<value>
-				<option name="FOREGROUND" value="986801"/>
 			</value>
 		</option>
 		<option name="BOOKMARKS_ATTRIBUTES">
@@ -799,6 +789,11 @@
 			<value>
 				<option name="BACKGROUND" value="d9ff"/>
 				<option name="ERROR_STRIPE_COLOR" value="43698d"/>
+			</value>
+		</option>
+		<option name="DJANGO_TAG_NAME">
+			<value>
+				<option name="FOREGROUND" value="a626a4"/>
 			</value>
 		</option>
 		<option name="DUPLICATE_FROM_SERVER">
@@ -1394,6 +1389,7 @@
 				<option name="EFFECT_TYPE" value="5"/>
 			</value>
 		</option>
+		<option name="JULIA_FLOAT_LIT" baseAttributes="DEFAULT_PREDEFINED_SYMBOL"/>
 		<option name="JUPYTER.SAUSAGE_BUTTON_APPEARANCE">
 			<value>
 				<option name="FOREGROUND" value="232324"/>
@@ -3005,6 +3001,12 @@
 				<option name="FOREGROUND" value="e4564a"/>
 			</value>
 		</option>
+		<option name="PROPERTIES.KEY">
+			<value>
+				<option name="FOREGROUND" value="e4564a"/>
+				<option name="FONT_TYPE" value="2"/>
+			</value>
+		</option>
 		<option name="PROTOCOL_REFERENCE">
 			<value>
 				<option name="FOREGROUND" value="219598"/>
@@ -3036,18 +3038,8 @@
 				<option name="FOREGROUND" value="986801"/>
 			</value>
 		</option>
-		<option name="PY.PREDEFINED_DEFINITION">
-			<value>
-				<option name="FOREGROUND" value="4078f2"/>
-				<option name="FONT_TYPE" value="2"/>
-			</value>
-		</option>
-		<option name="PY.PREDEFINED_USAGE">
-			<value>
-				<option name="FOREGROUND" value="4078f2"/>
-				<option name="FONT_TYPE" value="2"/>
-			</value>
-		</option>
+		<option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL"/>
+		<option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL"/>
 		<option name="PY.PRINT">
 			<value>
 				<option name="FOREGROUND" value="219598"/>
@@ -3077,6 +3069,11 @@
 		<option name="QUTE_BACKGROUND">
 			<value>
 				<option name="EFFECT_TYPE" value="5"/>
+			</value>
+		</option>
+		<option name="QUTE_TAG_NAME">
+			<value>
+				<option name="FOREGROUND" value="a626a4"/>
 			</value>
 		</option>
 		<option name="RDOC_DIRECTIVE">
@@ -3531,11 +3528,6 @@
 				<option name="FONT_TYPE" value="2"/>
 			</value>
 		</option>
-		<option name="SASS_VARIABLE">
-			<value>
-				<option name="FOREGROUND" value="e4564a"/>
-			</value>
-		</option>
 		<option name="SEARCH_RESULT_ATTRIBUTES">
 			<value>
 				<option name="BACKGROUND" value="dbdbdc"/>
@@ -3747,20 +3739,6 @@
 				<option name="EFFECT_TYPE" value="5"/>
 			</value>
 		</option>
-		<option name="VELOCITY_KEYWORD">
-			<value>
-				<option name="FOREGROUND" value="11c4c6"/>
-				<option name="FONT_TYPE" value="1"/>
-			</value>
-		</option>
-		<option name="VELOCITY_NUMBER">
-			<value>
-				<option name="FOREGROUND" value="986801"/>
-			</value>
-		</option>
-		<option name="VELOCITY_SCRIPTING_BACKGROUND">
-			<value/>
-		</option>
 		<option name="WARNING_ATTRIBUTES">
 			<value>
 				<option name="EFFECT_COLOR" value="c18401"/>
@@ -3797,23 +3775,9 @@
 				<option name="FOREGROUND" value="e4564a"/>
 			</value>
 		</option>
-		<option name="XPATH.KEYWORD">
-			<value>
-				<option name="FOREGROUND" value="11c4c6"/>
-				<option name="FONT_TYPE" value="1"/>
-			</value>
-		</option>
-		<option name="XPATH.NUMBER">
-			<value>
-				<option name="FOREGROUND" value="f25619"/>
-			</value>
-		</option>
-		<option name="XPATH.STRING">
-			<value>
-				<option name="FOREGROUND" value="986801"/>
-				<option name="FONT_TYPE" value="1"/>
-			</value>
-		</option>
+		<option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL"/>
+		<option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD"/>
+		<option name="XPATH.XPATH_NAME" baseAttributes="TEXT"/>
 		<option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER"/>
 		<option name="YAML_SCALAR_KEY">
 			<value>
