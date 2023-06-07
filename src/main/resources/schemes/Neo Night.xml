@@ -1,10 +1,10 @@
 <scheme name="Neo Night" version="142" parent_scheme="Darcula">
 	<option name="FONT_SCALE" value="1.0"/>
 	<metaInfo>
-		<property name="ide">idea</property>
-		<property name="ideVersion">2021.3.2.0.0</property>
 		<property name="created">2020-09-09T12:25:37</property>
-		<property name="modified">2022-01-15T16:53:52</property>
+		<property name="ide">idea</property>
+		<property name="ideVersion">2023.3.0.0</property>
+		<property name="modified">2023-09-29T21:26:32</property>
 	</metaInfo>
 	<option name="LINE_SPACING" value="1.2"/>
 	<option name="EDITOR_FONT_SIZE" value="14"/>
@@ -18,7 +18,7 @@
 		<option name="EDITOR_FONT_NAME" value="Menlo"/>
 		<option name="EDITOR_FONT_SIZE" value="12"/>
 	</console-font>
-	<option name="CONSOLE_LINE_SPACING" value="1.4"/>
+	<option name="CONSOLE_LINE_SPACING" value="1.0"/>
 	<colors>
 		<option name="ADDED_LINES_COLOR" value="91b859"/>
 		<option name="ANNOTATIONS_COLOR" value="fffbf7"/>
@@ -152,11 +152,6 @@
 		<option name="WHITESPACES_MODIFIED_LINES_COLOR" value="59626f"/>
 	</colors>
 	<attributes>
-		<option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
-			<value>
-				<option name="FOREGROUND" value="98c379"/>
-			</value>
-		</option>
 		<option name="ANGLE_BRACKETS_RAINBOW_COLOR1">
 			<value>
 				<option name="FOREGROUND" value="e06c75"/>
@@ -248,25 +243,37 @@
 		</option>
 		<option name="BNF_ATTRIBUTE">
 			<value>
-				<option name="FOREGROUND" value="ff5c5c"/>
+				<option name="FOREGROUND" value="e06c75"/>
 				<option name="FONT_TYPE" value="2"/>
 			</value>
 		</option>
 		<option name="BNF_EXTERNAL">
 			<value>
-				<option name="FOREGROUND" value="56b6c2"/>
+				<option name="FOREGROUND" value="d19a66"/>
+				<option name="EFFECT_COLOR" value="d19a66"/>
+				<option name="EFFECT_TYPE" value="1"/>
 			</value>
 		</option>
 		<option name="BNF_KEYWORD">
 			<value>
-				<option name="FOREGROUND" value="c678dd"/>
+				<option name="FOREGROUND" value="c679dd"/>
 				<option name="FONT_TYPE" value="2"/>
 			</value>
 		</option>
 		<option name="BNF_META_RULE">
 			<value>
-				<option name="FOREGROUND" value="61afef"/>
+				<option name="FOREGROUND" value="61aeef"/>
 				<option name="FONT_TYPE" value="2"/>
+			</value>
+		</option>
+		<option name="BNF_META_RULE_PARAM">
+			<value>
+				<option name="FOREGROUND" value="e06c75"/>
+			</value>
+		</option>
+		<option name="BNF_NUMBER">
+			<value>
+				<option name="FOREGROUND" value="d19a66"/>
 			</value>
 		</option>
 		<option name="BNF_PATTERN">
@@ -277,13 +284,12 @@
 		</option>
 		<option name="BNF_RULE">
 			<value>
-				<option name="FOREGROUND" value="e06c75"/>
-				<option name="FONT_TYPE" value="2"/>
+				<option name="FOREGROUND" value="d19a66"/>
 			</value>
 		</option>
 		<option name="BNF_TOKEN">
 			<value>
-				<option name="FOREGROUND" value="d19a66"/>
+				<option name="FOREGROUND" value="79ddd1"/>
 			</value>
 		</option>
 		<option name="BOOKMARKS_ATTRIBUTES">
@@ -1008,23 +1014,23 @@
 				<option name="FOREGROUND" value="e5c17c"/>
 			</value>
 		</option>
-		<option name="HAML_COMMENT" baseAttributes="DEFAULT_DOC_COMMENT"/>
-		<option name="HAML_FILTER" baseAttributes="DEFAULT_LABEL"/>
-		<option name="HAML_FILTER_CONTENT" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR"/>
+		<option name="HAML_COMMENT" baseAttributes=""/>
+		<option name="HAML_FILTER" baseAttributes=""/>
+		<option name="HAML_FILTER_CONTENT" baseAttributes=""/>
 		<option name="HAML_ID">
 			<value>
 				<option name="FOREGROUND" value="61afef"/>
 			</value>
 		</option>
-		<option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT"/>
-		<option name="HAML_RUBY_START" baseAttributes="DEFAULT_KEYWORD"/>
-		<option name="HAML_TAG" baseAttributes="TEXT"/>
+		<option name="HAML_RUBY_CODE" baseAttributes=""/>
+		<option name="HAML_RUBY_START" baseAttributes=""/>
+		<option name="HAML_TAG" baseAttributes=""/>
 		<option name="HAML_TAG_NAME">
 			<value>
 				<option name="FOREGROUND" value="f07178"/>
 			</value>
 		</option>
-		<option name="HAML_TEXT" baseAttributes="TEXT"/>
+		<option name="HAML_TEXT" baseAttributes=""/>
 		<option name="HAML_XHTML">
 			<value>
 				<option name="FOREGROUND" value="56b6c2"/>
@@ -1140,7 +1146,7 @@
 		</option>
 		<option name="HTML_ATTRIBUTE_NAME">
 			<value>
-				<option name="FOREGROUND" value="f07178"/>
+				<option name="FOREGROUND" value="e5c17c"/>
 				<option name="FONT_TYPE" value="2"/>
 			</value>
 		</option>
@@ -1148,11 +1154,7 @@
 		<option name="HTML_CODE">
 			<value/>
 		</option>
-		<option name="HTML_ENTITY_REFERENCE">
-			<value>
-				<option name="FOREGROUND" value="57b6c2"/>
-			</value>
-		</option>
+		<option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY"/>
 		<option name="HTML_TAG">
 			<value>
 				<option name="FOREGROUND" value="abb2bf"/>
@@ -1160,8 +1162,7 @@
 		</option>
 		<option name="HTML_TAG_NAME">
 			<value>
-				<option name="FOREGROUND" value="e5c17c"/>
-				<option name="FONT_TYPE" value="2"/>
+				<option name="FOREGROUND" value="f07178"/>
 			</value>
 		</option>
 		<option name="HTTP_REQUEST_PARAMETER_NAME">
@@ -1406,6 +1407,11 @@
 			</value>
 		</option>
 		<option name="JSP_DIRECTIVE_NAME" baseAttributes="DEFAULT_KEYWORD"/>
+		<option name="JULIA_ABSTRACT_TYPE_NAME" baseAttributes="DEFAULT_INTERFACE_NAME"/>
+		<option name="JULIA_BUILTIN_NAME" baseAttributes="DEFAULT_FUNCTION_CALL"/>
+		<option name="JULIA_FLOAT_LIT" baseAttributes="DEFAULT_PREDEFINED_SYMBOL"/>
+		<option name="JULIA_KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER"/>
+		<option name="JULIA_TYPE_NAME" baseAttributes="DEFAULT_CLASS_NAME"/>
 		<option name="JUPYTER_SELECTED_CELL">
 			<value>
 				<option name="BACKGROUND" value="3a3f4b"/>
@@ -1550,6 +1556,7 @@
 				<option name="EFFECT_TYPE" value="1"/>
 			</value>
 		</option>
+		<option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD"/>
 		<option name="LINE_FULL_COVERAGE">
 			<value>
 				<option name="BACKGROUND" value="264b33"/>
@@ -2843,6 +2850,100 @@
 				<option name="FOREGROUND" value="c4b3a3"/>
 			</value>
 		</option>
+		<option name="MMA.BLOCK_LOCALIZED">
+			<value>
+				<option name="FOREGROUND" value="d19a66"/>
+				<option name="EFFECT_COLOR" value="d19a66"/>
+				<option name="EFFECT_TYPE" value="1"/>
+			</value>
+		</option>
+		<option name="MMA.COMMENT">
+			<value>
+				<option name="FOREGROUND" value="a0a0a0"/>
+			</value>
+		</option>
+		<option name="MMA.DYNAMIC_MODULE_LOCALIZED">
+			<value>
+				<option name="FOREGROUND" value="d19a66"/>
+				<option name="EFFECT_COLOR" value="d19a66"/>
+				<option name="EFFECT_TYPE" value="1"/>
+			</value>
+		</option>
+		<option name="MMA.KERNEL_SYMBOL">
+			<value>
+				<option name="FOREGROUND" value="e5c17c"/>
+			</value>
+		</option>
+		<option name="MMA.LITERAL">
+			<value>
+				<option name="FOREGROUND" value="d19a66"/>
+			</value>
+		</option>
+		<option name="MMA.LOCALIZED">
+			<value>
+				<option name="FOREGROUND" value="e06c75"/>
+			</value>
+		</option>
+		<option name="MMA.MESSAGE">
+			<value>
+				<option name="FOREGROUND" value="98c379"/>
+				<option name="FONT_TYPE" value="1"/>
+			</value>
+		</option>
+		<option name="MMA.MODULE_LOCALIZED">
+			<value>
+				<option name="FOREGROUND" value="d19a66"/>
+				<option name="EFFECT_COLOR" value="d19a66"/>
+				<option name="EFFECT_TYPE" value="1"/>
+			</value>
+		</option>
+		<option name="MMA.OPERATORS">
+			<value>
+				<option name="FOREGROUND" value="61afef"/>
+			</value>
+		</option>
+		<option name="MMA.PATTERN">
+			<value>
+				<option name="FOREGROUND" value="e06c75"/>
+				<option name="FONT_TYPE" value="2"/>
+			</value>
+		</option>
+		<option name="MMA.SLOT">
+			<value>
+				<option name="FOREGROUND" value="c679dd"/>
+				<option name="FONT_TYPE" value="2"/>
+			</value>
+		</option>
+		<option name="MMA.STRING">
+			<value>
+				<option name="FOREGROUND" value="98c379"/>
+			</value>
+		</option>
+		<option name="MMA.STRINGIFIED_SYMBOL">
+			<value>
+				<option name="FOREGROUND" value="98c379"/>
+				<option name="EFFECT_COLOR" value="98c379"/>
+				<option name="EFFECT_TYPE" value="1"/>
+			</value>
+		</option>
+		<option name="MMA.SYMBOL">
+			<value>
+				<option name="FOREGROUND" value="61aeef"/>
+			</value>
+		</option>
+		<option name="MMA.USAGE_MESSAGE">
+			<value>
+				<option name="FOREGROUND" value="98c379"/>
+				<option name="FONT_TYPE" value="1"/>
+			</value>
+		</option>
+		<option name="MMA.WITH_LOCALIZED">
+			<value>
+				<option name="FOREGROUND" value="d19a66"/>
+				<option name="EFFECT_COLOR" value="d19a66"/>
+				<option name="EFFECT_TYPE" value="1"/>
+			</value>
+		</option>
 		<option name="NG.EXPANSION_FORM">
 			<value>
 				<option name="EFFECT_TYPE" value="5"/>
@@ -2942,12 +3043,14 @@
 		</option>
 		<option name="PEST_NON_ATOMIC">
 			<value>
-				<option name="FOREGROUND" value="f07178"/>
+				<option name="FOREGROUND" value="61aeef"/>
+				<option name="EFFECT_COLOR" value="61aeef"/>
+				<option name="EFFECT_TYPE" value="1"/>
 			</value>
 		</option>
 		<option name="PEST_SILENT">
 			<value>
-				<option name="FOREGROUND" value="c3d3de"/>
+				<option name="FOREGROUND" value="57b6c2"/>
 			</value>
 		</option>
 		<option name="PHP_ALIAS_REFERENCE">
@@ -3051,6 +3154,7 @@
 				<option name="FOREGROUND" value="219598"/>
 			</value>
 		</option>
+		<option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL"/>
 		<option name="PY.DECORATOR">
 			<value>
 				<option name="FOREGROUND" value="61aeef"/>
@@ -3073,12 +3177,7 @@
 				<option name="FONT_TYPE" value="2"/>
 			</value>
 		</option>
-		<option name="PY.PREDEFINED_USAGE">
-			<value>
-				<option name="FOREGROUND" value="61aeef"/>
-				<option name="FONT_TYPE" value="2"/>
-			</value>
-		</option>
+		<option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL"/>
 		<option name="PY.SELF_PARAMETER">
 			<value>
 				<option name="FOREGROUND" value="e06c75"/>
@@ -3093,6 +3192,11 @@
 		<option name="PY.STRING.B">
 			<value>
 				<option name="FOREGROUND" value="98c379"/>
+			</value>
+		</option>
+		<option name="QUTE_TAG_NAME">
+			<value>
+				<option name="FOREGROUND" value="c679dd"/>
 			</value>
 		</option>
 		<option name="RDOC_DIRECTIVE">
@@ -3711,8 +3815,6 @@
 				<option name="FOREGROUND" value="59626f"/>
 			</value>
 		</option>
-		<option name="TAPESTRY_COMPONENT_PARAMATER" baseAttributes=""/>
-		<option name="TAPESTRY_COMPONENT_TAG" baseAttributes=""/>
 		<option name="TEMPLATE_VARIABLE_ATTRIBUTES">
 			<value>
 				<option name="FOREGROUND" value="57b6c2"/>
@@ -3800,22 +3902,10 @@
 				<option name="EFFECT_TYPE" value="5"/>
 			</value>
 		</option>
-		<option name="VELOCITY_KEYWORD">
-			<value>
-				<option name="FOREGROUND" value="a7dbd8"/>
-				<option name="FONT_TYPE" value="1"/>
-			</value>
-		</option>
-		<option name="VELOCITY_NUMBER">
-			<value>
-				<option name="FOREGROUND" value="f36e3a"/>
-			</value>
-		</option>
-		<option name="VELOCITY_SCRIPTING_BACKGROUND">
-			<value>
-				<option name="BACKGROUND" value="252b39"/>
-			</value>
-		</option>
+		<option name="VELOCITY_DIRECTIVE" baseAttributes="DEFAULT_KEYWORD"/>
+		<option name="VELOCITY_KEYWORD" baseAttributes="DEFAULT_KEYWORD"/>
+		<option name="VELOCITY_REFERENCE" baseAttributes="DEFAULT_ATTRIBUTE"/>
+		<option name="VELOCITY_SCRIPTING_BACKGROUND" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR"/>
 		<option name="WARNING_ATTRIBUTES">
 			<value>
 				<option name="EFFECT_COLOR" value="e5c17c"/>
@@ -3841,12 +3931,7 @@
 				<option name="EFFECT_TYPE" value="1"/>
 			</value>
 		</option>
-		<option name="XML_ATTRIBUTE_NAME">
-			<value>
-				<option name="FOREGROUND" value="f07178"/>
-				<option name="FONT_TYPE" value="2"/>
-			</value>
-		</option>
+		<option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE"/>
 		<option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY"/>
 		<option name="XML_PROLOGUE" baseAttributes="TEXT"/>
 		<option name="XML_TAG">
@@ -3857,7 +3942,7 @@
 		<option name="XML_TAG_DATA" baseAttributes="TEXT"/>
 		<option name="XML_TAG_NAME">
 			<value>
-				<option name="FOREGROUND" value="e5c17c"/>
+				<option name="FOREGROUND" value="e06c75"/>
 			</value>
 		</option>
 		<option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL"/>
@@ -3869,10 +3954,36 @@
 		</option>
 		<option name="XPATH.XPATH_NAME" baseAttributes="TEXT"/>
 		<option name="XPATH.XPATH_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE"/>
-		<option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER"/>
+		<option name="YAML_ANCHOR">
+			<value>
+				<option name="FOREGROUND" value="e5c17c"/>
+			</value>
+		</option>
 		<option name="YAML_SCALAR_KEY">
 			<value>
 				<option name="FOREGROUND" value="f07178"/>
+			</value>
+		</option>
+		<option name="YAML_SCALAR_LIST">
+			<value>
+				<option name="FOREGROUND" value="98c379"/>
+				<option name="BACKGROUND" value="282c34"/>
+				<option name="FONT_TYPE" value="2"/>
+				<option name="EFFECT_TYPE" value="1"/>
+			</value>
+		</option>
+		<option name="YAML_SCALAR_VALUE">
+			<value>
+				<option name="FOREGROUND" value="98c379"/>
+				<option name="BACKGROUND" value="282c34"/>
+				<option name="FONT_TYPE" value="2"/>
+				<option name="EFFECT_TYPE" value="5"/>
+			</value>
+		</option>
+		<option name="YAML_TEXT">
+			<value>
+				<option name="FOREGROUND" value="98c379"/>
+				<option name="EFFECT_TYPE" value="5"/>
 			</value>
 		</option>
 		<option name="org.rust.DOC_CODE">
@@ -3948,12 +4059,6 @@
 		<option name="org.toml.BOOLEAN">
 			<value>
 				<option name="FOREGROUND" value="c679dd"/>
-				<option name="FONT_TYPE" value="2"/>
-			</value>
-		</option>
-		<option name="org.toml.DATE">
-			<value>
-				<option name="FOREGROUND" value="57b6c2"/>
 				<option name="FONT_TYPE" value="2"/>
 			</value>
 		</option>
