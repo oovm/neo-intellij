@@ -2,21 +2,28 @@
 
 # Neo Changelog
 
-## [0.3.0]
+## [0.3.1]
+### Changed
+- Update to 2023.2 version `(232.*)`
+- Update gradle to 8.1.1
 ### Fixed
+- Fix missing selection background color([#5](https://github.com/oovm/neo-intellij/issues/5))
+
+## [0.3.0]
+### Changed
 - Update to 2023.1 version `(231.*)`
 - Update runtime to jvm17
 - Update gradle to 7.5.1
 
 ## [0.2.3]
-### Fixed
+### Changed
 - Update to 2022.2 version `(222.*)`
 
 ## [0.2.2]
+### Changed
+- Update to 2022 version `(221.*)`
 ### Fixed
 - Wrong compatibility range set when publishing
-- Update to 2022 version `(221.*)`
-
 ## [0.2.1]
 ### Changed
 - Improve readability of test files([#2](https://github.com/oovm/neo-intellij/issues/2))
