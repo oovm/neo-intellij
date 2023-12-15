@@ -2,6 +2,13 @@
 
 # Neo Changelog
 
+## [0.3.2]
+### Changed
+- Update to 2023.3 version `(233.*)`
+- Update gradle to 8.3
+### Fixed
+- Prevent refactoring selections from being obscured([#5](https://github.com/oovm/neo-intellij/issues/8))
+
 ## [0.3.1]
 ### Changed
 - Update to 2023.2 version `(232.*)`
