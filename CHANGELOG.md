@@ -2,6 +2,14 @@
 
 # Neo Changelog
 
+## [0.4.0]
+### New
+- Customized `wat`(Web Assembly Text) color matching
+- Customized `wit`(Wasm Interface Type) color matching
+### Changed
+- Update to 2024.1 version `(241.*)`
+- Update gradle to 8.5.1
+
 ## [0.3.2]
 ### Changed
 - Update to 2023.3 version `(233.*)`
