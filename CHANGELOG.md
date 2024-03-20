@@ -2,6 +2,11 @@
 
 # Neo Changelog
 
+## [0.4.1]
+### Fixed
+- Fix color parse error([#9](https://github.com/oovm/neo-intellij/issues/9))
+- Better `test` select color([#7](https://github.com/oovm/neo-intellij/issues/7))
+
 ## [0.4.0]
 ### New
 - Customized `wat`(Web Assembly Text) color matching
