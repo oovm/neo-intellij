@@ -1,1 +1,1 @@
-rootProject.name = "Neo"
+rootProject.name = "Neo Theme"

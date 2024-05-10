@@ -1339,6 +1339,31 @@
 				<option name="EFFECT_TYPE" value="5"/>
 			</value>
 		</option>
+		<option name="JULIA_FLOAT_LIT">
+			<value>
+				<option name="FOREGROUND" value="577f9d"/>
+				<option name="FONT_TYPE" value="2"/>
+			</value>
+		</option>
+		<option name="JULIA_KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER"/>
+		<option name="JULIA_MACRO_NAME">
+			<value>
+				<option name="FOREGROUND" value="20999d"/>
+			</value>
+		</option>
+		<option name="JULIA_MACRO_REFERENCE">
+			<value>
+				<option name="FOREGROUND" value="20999d"/>
+				<option name="FONT_TYPE" value="2"/>
+			</value>
+		</option>
+		<option name="JULIA_QUOTE_NAME">
+			<value>
+				<option name="FOREGROUND" value="20999d"/>
+				<option name="BACKGROUND" value="fafafa"/>
+				<option name="EFFECT_TYPE" value="5"/>
+			</value>
+		</option>
 		<option name="JUPYTER.SAUSAGE_BUTTON_APPEARANCE">
 			<value>
 				<option name="FOREGROUND" value="232324"/>
