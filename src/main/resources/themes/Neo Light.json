@@ -253,19 +253,19 @@
         "ManagedIdeBadgeBackgroundHover": "Gray12",
         "Button": {
             "arc": 8,
+            "background": "Blue10",
             "ToolWindow": {
                 "arc": 40
             }
         },
         "CompletionPopup": {
             "Advertiser": {},
-            "selectionInactiveBackground": "select_line_inactive"
+            "selectionBackground": "Blue11",
+            "selectionInactiveBackground": "Blue11"
         },
         "Tree": {
-            "selectionBackground": "select_line",
-            "selectionInactiveBackground": "select_line_inactive",
-            "selectionForeground": "select_text",
-            "selectionInactiveForeground": "select_text_inactive"
+            "selectionBackground": "Blue9",
+            "selectionInactiveBackground": "Blue10"
         }
     }
 }
