@@ -1,7 +1,7 @@
 <scheme name="Neo Light" version="142" parent_scheme="Default">
 	<option name="FONT_SCALE" value="1.0"/>
 	<metaInfo>
-		<property name="created">2020-09-09T12:16:00</property>
+		<property name="created">2020-09-09T12:16:20</property>
 		<property name="ide">idea</property>
 		<property name="ideVersion">2023.3.0.0</property>
 		<property name="modified">2023-09-29T08:16:31</property>
@@ -60,26 +60,7 @@
 		<option name="DOCUMENTATION_COLOR" value="eaeaeb"/>
 		<option name="DOC_COMMENT_GUIDE" value="9d9d9f"/>
 		<option name="DOC_COMMENT_LINK" value="184bc"/>
-		<option name="FILESTATUS_ADDED" value="50a14e"/>
-		<option name="FILESTATUS_COPIED" value="50a14e"/>
-		<option name="FILESTATUS_DELETED" value="a0a1a7"/>
-		<option name="FILESTATUS_HIJACKED" value="a626a4"/>
-		<option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="a0a1a7"/>
-		<option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="9da5b4"/>
-		<option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="ff6347"/>
-		<option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="ff6347"/>
-		<option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="ff6347"/>
-		<option name="FILESTATUS_MERGED" value="4078f2"/>
-		<option name="FILESTATUS_MODIFIED" value="986801"/>
-		<option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="57b6c2"/>
-		<option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="57b6c2"/>
-		<option name="FILESTATUS_RENAMED" value="a626a4"/>
-		<option name="FILESTATUS_SUPPRESSED" value="383a42"/>
-		<option name="FILESTATUS_SWITCHED" value="4078f2"/>
-		<option name="FILESTATUS_UNKNOWN" value="f77669"/>
-		<option name="FILESTATUS_addedOutside" value="57b6c2"/>
-		<option name="FILESTATUS_changelistConflict" value="ff6347"/>
-		<option name="FILESTATUS_modifiedOutside" value="4078f2"/>
+		<option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="986801" />
 		<option name="FOLDED_TEXT_BORDER_COLOR" value="e5e5e5"/>
 		<option name="GUTTER_BACKGROUND" value="fafafa"/>
 		<option name="INDENT_GUIDE" value="d3d4d5"/>
@@ -101,33 +82,6 @@
 		<option name="METHOD_SEPARATORS_COLOR" value="d3d4d5"/>
 		<option name="MODIFIED_LINES_COLOR" value="526fff"/>
 		<option name="MODIFIED_TAB_ICON" value="2979ff"/>
-		<option name="MT_ADDED" value="73c990"/>
-		<option name="MT_DELETED" value="ff6347"/>
-		<option name="MT_FILESTATUS_ADDED" value="50a14e"/>
-		<option name="MT_FILESTATUS_COPIED" value="50a14e"/>
-		<option name="MT_FILESTATUS_DELETED" value="a0a1a7"/>
-		<option name="MT_FILESTATUS_HIJACKED" value="a626a4"/>
-		<option name="MT_FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="a0a1a7"/>
-		<option name="MT_FILESTATUS_IDEA_FILESTATUS_IGNORED" value="9da5b4"/>
-		<option name="MT_FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="ff6347"/>
-		<option name="MT_FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="ff6347"/>
-		<option name="MT_FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="ff6347"/>
-		<option name="MT_FILESTATUS_MERGED" value="4078f2"/>
-		<option name="MT_FILESTATUS_MODIFIED" value="986801"/>
-		<option name="MT_FILESTATUS_NOT_CHANGED_IMMEDIATE" value="57b6c2"/>
-		<option name="MT_FILESTATUS_NOT_CHANGED_RECURSIVE" value="57b6c2"/>
-		<option name="MT_FILESTATUS_RENAMED" value="a626a4"/>
-		<option name="MT_FILESTATUS_SUPPRESSED" value="383a42"/>
-		<option name="MT_FILESTATUS_SWITCHED" value="4078f2"/>
-		<option name="MT_FILESTATUS_UNKNOWN" value="f77669"/>
-		<option name="MT_FILESTATUS_addedOutside" value="57b6c2"/>
-		<option name="MT_FILESTATUS_changelistConflict" value="ff6347"/>
-		<option name="MT_FILESTATUS_modifiedOutside" value="4078f2"/>
-		<option name="MT_IDEA_FILESTATUS_IGNORED" value="9da5b4"/>
-		<option name="MT_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967"/>
-		<option name="MT_MODIFIED" value="e2c08d"/>
-		<option name="MT_RENAMED" value="6494ed"/>
-		<option name="MT_SUPPRESSED" value="383a42"/>
 		<option name="MnemonicIcon.background" value="e5e5e6"/>
 		<option name="MnemonicIcon.borderColor" value="e5e5e6"/>
 		<option name="MnemonicIcon.foreground" value="232324"/>

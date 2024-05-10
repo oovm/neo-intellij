@@ -253,7 +253,6 @@
         "ManagedIdeBadgeBackgroundHover": "Gray12",
         "Button": {
             "arc": 8,
-            "background": "Blue10",
             "ToolWindow": {
                 "arc": 40
             }
