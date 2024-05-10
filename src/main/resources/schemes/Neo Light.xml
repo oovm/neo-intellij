@@ -650,7 +650,7 @@
 		</option>
 		<option name="DEFAULT_PREDEFINED_SYMBOL">
 			<value>
-				<option name="FOREGROUND" value="4078f2"/>
+				<option name="FOREGROUND" value="20999d"/>
 				<option name="FONT_TYPE" value="2"/>
 			</value>
 		</option>
@@ -2979,6 +2979,7 @@
 				<option name="FOREGROUND" value="219598"/>
 			</value>
 		</option>
+		<option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL"/>
 		<option name="PY.DECORATOR">
 			<value>
 				<option name="FOREGROUND" value="4078f2"/>
@@ -2989,20 +2990,21 @@
 				<option name="FOREGROUND" value="e4564a"/>
 			</value>
 		</option>
-		<option name="PY.KEYWORD">
-			<value>
-				<option name="FOREGROUND" value="a626a4"/>
-				<option name="FONT_TYPE" value="2"/>
-			</value>
-		</option>
-		<option name="PY.KEYWORD_ARGUMENT">
-			<value>
-				<option name="FOREGROUND" value="383a42"/>
-			</value>
-		</option>
+		<option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER"/>
 		<option name="PY.NONE">
 			<value>
 				<option name="FOREGROUND" value="986801"/>
+			</value>
+		</option>
+		<option name="PY.OPERATION_SIGN">
+			<value>
+				<option name="FOREGROUND" value="4078f2"/>
+			</value>
+		</option>
+		<option name="PY.PREDEFINED_DEFINITION">
+			<value>
+				<option name="FOREGROUND" value="a626a4"/>
+				<option name="FONT_TYPE" value="2"/>
 			</value>
 		</option>
 		<option name="PY.PRINT">
