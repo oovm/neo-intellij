@@ -58,57 +58,26 @@
     --selectionInactiveForeground: #333333;
 }
 
+// 自动完成
+#CompletionPopup {
+    #Advertiser {
 
-#VersionControl {
-    #FileHistory.Commit {
-        --otherBranchBackground: var(--excl);
-        --selectedBranchBackground: var(--bg);
     }
 
-    #GitCommits {
-        --graphColor: var(--hl);
-    }
-
-    #GitLog {
-        --localBranchIconColor: var(--accent);
-        --otherIconColor: var(--text);
-        --remoteBranchIconColor: var(--fg);
-        --tagIconColor: var(--text);
-    }
-
-    #HgLog {
-        --bookmarkIconColor: var(--activeFg);
-        --branchIconColor: var(--accent);
-        --closedBranchIconColor: var(--dis);
-        --localTagIconColor: var(--text);
-        --mqTagIconColor: var(--text);
-        --tagIconColor: var(--text);
-        --tipIconColor: var(--text);
-    }
-
-    #Log.Commit {
-        --currentBranchBackground: var(--cs);
-        --hoveredBackground: var(--tree);
-        --rowHeight: 28;
-        --unmatchedForeground: var(--text);
-    }
-
-    #MarkerPopup {
-        --borderColor: var(--border);
-        --borderInsets: 6 8 6 10;
-
-        #Toolbar {
-            --background: var(--hl);
-        }
-    }
-
-    #Ref {
-        --backgroundBase: var(--hl);
-        --foreground: var(--activeFg);
-    }
-
-    #RefLabel {
-        --backgroundBase: var(--hl);
-        --foreground: var(--activeFg);
-    }
 }
+//            "grayForeground": "text",
+//            "grayedForeground": "text",
+//            "infoForeground": "text",
+//            "matchForeground": "accent",
+//            "matchSelectedForeground": "accent",
+//            "matchSelectionForeground": "accent",
+//            "nonFocusedState": "false",
+//            "selectedForeground": "selFg",
+//            "selectedGrayedForeground": "selFg",
+//            "selectionBackground": "accent50",
+//            "selectionForeground": "selFg",
+//            "selectionGrayForeground": "selFg",
+//            "selectionInactiveBackground": "accent20",
+//            "selectionInactiveForeground": "text",
+//            "selectionInactiveInfoForeground": "text",
+//            "selectionInfoForeground": "selFg"
