@@ -1,47 +1,8 @@
 :root {
-    --bg: #F4F4F4;
-    --bg30: #F4F4F430;
-    --fg: #232324;
-    --text: #7f7f7f;
-    --selBg: #FFFFFF;
-    --selBg20: #FFFFFF20;
-    --selFg: #232324;
-    --activeFg: #232324;
-    --border: #DBDBDC;
-    --excl: #CACACB;
-    --second: #EAEAEB;
-    --dis: #b8b8b9;
-    --accent: #2979ff;
-    --accent20: #2979ff20;
-    --accent50: #2979ff50;
-    --accent70: #2979ff70;
-    --cs: #eaeaeb;
-    --button: #DBDBDC;
-    --table: #DBDBDC;
-    --tree: #e8e8e8;
-    --hl: #FFFFFF;
-    --notif: #F2F2F2;
-    --hc: #F4F4F4;
-    --shadow: #CACACB;
-    --white: #986801;
-    --blue: #4078F2;
-    --red: #E4564A;
-    --yellow: #C18401;
-    --green: #50A14E;
-    --gray: #A0A1A7;
-    --purple: #A626A4;
-    --orange: #986801;
-}
-
-:root {
-    --file-color-blue: #004BA0;
-    --file-color-green: #c4ef99;
-    --file-color-orange: #B53D00;
-    --file-color-rose: #A00037;
-    --file-color-violet: #4D2C91;
-    --file-color-yellow: #ffd782;
-    --file-color-gray: var(--excl);
-    --file-color-excluded: var(--excl);
+    --select_line: #4078F260;
+    --select_text: #000000;
+    --select_line_inactive: #4078F240;
+    --select_text_inactive: #333333;
 }
 
 // Tree Structure View 使用的样式
@@ -49,13 +10,13 @@
 // https://github.com/JetBrains/intellij-community/blob/e3a963b281e7b2b099201ca4c5c113dd64f15a1d/platform/platform-resources/src/themes/metadata/JDK.themeMetadata.json#L1391
 #Tree {
     // 鼠标选中的背景色
-    --selectionBackground: #2979FF60;
+    --selectionBackground: var(--select_line);
     // 鼠标移开后的背景色
-    --selectionInactiveBackground: #2979FF40;
+    --selectionInactiveBackground: var(--select_line_inactive);
     // 鼠标选中的文字色
-    --selectionForeground: #000000;
+    --selectionForeground: var(--select_text);
     // 鼠标移开后的文字色, 只在 Structure View 生效
-    --selectionInactiveForeground: #333333;
+    --selectionInactiveForeground: var(--select_text_inactive);
 }
 
 // 自动完成
@@ -64,20 +25,6 @@
 
     }
 
+    // 默认选中的背景色
+    --selectionInactiveBackground: #E3F7E7
 }
-//            "grayForeground": "text",
-//            "grayedForeground": "text",
-//            "infoForeground": "text",
-//            "matchForeground": "accent",
-//            "matchSelectedForeground": "accent",
-//            "matchSelectionForeground": "accent",
-//            "nonFocusedState": "false",
-//            "selectedForeground": "selFg",
-//            "selectedGrayedForeground": "selFg",
-//            "selectionBackground": "accent50",
-//            "selectionForeground": "selFg",
-//            "selectionGrayForeground": "selFg",
-//            "selectionInactiveBackground": "accent20",
-//            "selectionInactiveForeground": "text",
-//            "selectionInactiveInfoForeground": "text",
-//            "selectionInfoForeground": "selFg"
