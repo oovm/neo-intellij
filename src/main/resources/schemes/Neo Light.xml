@@ -2,9 +2,9 @@
 	<option name="FONT_SCALE" value="1.0"/>
 	<metaInfo>
 		<property name="created">2020-09-09T12:16:20</property>
-		<property name="ide">idea</property>
-		<property name="ideVersion">2023.3.0.0</property>
-		<property name="modified">2023-09-29T08:16:31</property>
+		<property name="ide">JetBrainsClient</property>
+		<property name="ideVersion">2024.1.2.0.0</property>
+		<property name="modified">2024-05-10T08:16:31</property>
 	</metaInfo>
 	<option name="LINE_SPACING" value="1.2"/>
 	<option name="EDITOR_FONT_SIZE" value="14"/>
@@ -60,7 +60,7 @@
 		<option name="DOCUMENTATION_COLOR" value="eaeaeb"/>
 		<option name="DOC_COMMENT_GUIDE" value="9d9d9f"/>
 		<option name="DOC_COMMENT_LINK" value="184bc"/>
-		<option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="986801" />
+		<option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="986801"/>
 		<option name="FOLDED_TEXT_BORDER_COLOR" value="e5e5e5"/>
 		<option name="GUTTER_BACKGROUND" value="fafafa"/>
 		<option name="INDENT_GUIDE" value="d3d4d5"/>
@@ -480,7 +480,6 @@
 		<option name="DEFAULT_ATTRIBUTE">
 			<value>
 				<option name="FOREGROUND" value="c18401"/>
-				<option name="FONT_TYPE" value="2"/>
 			</value>
 		</option>
 		<option name="DEFAULT_BLOCK_COMMENT">
@@ -550,7 +549,7 @@
 		</option>
 		<option name="DEFAULT_ENTITY">
 			<value>
-				<option name="FOREGROUND" value="c18401"/>
+				<option name="FOREGROUND" value="20999d"/>
 			</value>
 		</option>
 		<option name="DEFAULT_FUNCTION_CALL">
@@ -583,11 +582,13 @@
 		<option name="DEFAULT_INSTANCE_FIELD">
 			<value>
 				<option name="FOREGROUND" value="e4564a"/>
+				<option name="FONT_TYPE" value="2"/>
 			</value>
 		</option>
 		<option name="DEFAULT_INSTANCE_METHOD">
 			<value>
 				<option name="FOREGROUND" value="4078f2"/>
+				<option name="FONT_TYPE" value="2"/>
 			</value>
 		</option>
 		<option name="DEFAULT_INTERFACE_NAME">
@@ -677,13 +678,11 @@
 		<option name="DEFAULT_STATIC_FIELD">
 			<value>
 				<option name="FOREGROUND" value="e4564a"/>
-				<option name="FONT_TYPE" value="2"/>
 			</value>
 		</option>
 		<option name="DEFAULT_STATIC_METHOD">
 			<value>
 				<option name="FOREGROUND" value="4078f2"/>
-				<option name="FONT_TYPE" value="2"/>
 			</value>
 		</option>
 		<option name="DEFAULT_STRING">
@@ -795,9 +794,6 @@
 				<option name="EFFECT_TYPE" value="1"/>
 			</value>
 		</option>
-		<option name="GHERKIN_OUTLINE_PARAMETER_SUBSTITUTION" baseAttributes="DEFAULT_INSTANCE_FIELD"/>
-		<option name="GHERKIN_PYSTRING" baseAttributes="DEFAULT_STRING"/>
-		<option name="GHERKIN_REGEXP_PARAMETER" baseAttributes="DEFAULT_PARAMETER"/>
 		<option name="GIT_TOOLBOX.CHANGED_COUNT_ATTRIBUTES">
 			<value>
 				<option name="FOREGROUND" value="e4564a"/>
@@ -1343,7 +1339,6 @@
 				<option name="EFFECT_TYPE" value="5"/>
 			</value>
 		</option>
-		<option name="JULIA_FLOAT_LIT" baseAttributes="DEFAULT_PREDEFINED_SYMBOL"/>
 		<option name="JUPYTER.SAUSAGE_BUTTON_APPEARANCE">
 			<value>
 				<option name="FOREGROUND" value="232324"/>
@@ -2992,8 +2987,6 @@
 				<option name="FOREGROUND" value="986801"/>
 			</value>
 		</option>
-		<option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL"/>
-		<option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL"/>
 		<option name="PY.PRINT">
 			<value>
 				<option name="FOREGROUND" value="219598"/>
