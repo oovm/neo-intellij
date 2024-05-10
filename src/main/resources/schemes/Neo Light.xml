@@ -1,10 +1,8 @@
 <scheme name="Neo Light" version="142" parent_scheme="Default">
 	<option name="FONT_SCALE" value="1.0"/>
 	<metaInfo>
-		<property name="created">2020-09-09T12:16:20</property>
 		<property name="ide">JetBrainsClient</property>
 		<property name="ideVersion">2024.1.2.0.0</property>
-		<property name="modified">2024-05-10T08:16:31</property>
 	</metaInfo>
 	<option name="LINE_SPACING" value="1.2"/>
 	<option name="EDITOR_FONT_SIZE" value="14"/>
@@ -152,12 +150,12 @@
 				<option name="FOREGROUND" value="50a14e"/>
 			</value>
 		</option>
-		<option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA"/>
-		<option name="ANNOTATION_NAME_ATTRIBUTES">
+		<option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
 			<value>
-				<option name="FOREGROUND" value="4078f2"/>
+				<option name="FOREGROUND" value="e4564a"/>
 			</value>
 		</option>
+		<option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA"/>
 		<option name="APACHE_CONFIG.ARG_LEXEM">
 			<value>
 				<option name="FOREGROUND" value="50a14e"/>
@@ -1373,11 +1371,6 @@
 		<option name="JUPYTER_SELECTED_CELL">
 			<value>
 				<option name="BACKGROUND" value="eaeaeb"/>
-			</value>
-		</option>
-		<option name="KOTLIN_ANNOTATION">
-			<value>
-				<option name="FOREGROUND" value="4078f2"/>
 			</value>
 		</option>
 		<option name="KOTLIN_ARROW">
