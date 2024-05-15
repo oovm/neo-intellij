@@ -2,6 +2,7 @@
     "name": "Neo Night",
     "dark": true,
     "author": "Aster",
+    "parentTheme": "ExperimentalDark",
     "editorScheme": "schemes/Neo Night.xml",
     "colors": {
         "bg": "#282C34",
@@ -569,9 +570,6 @@
             "disabledSeparatorColor": "border",
             "separatorColor": "border"
         },
-        "Gutter": {
-            "VcsChanges.width": 4
-        },
         "GutterTooltip": {
             "borderColor": "bg",
             "infoForeground": "text",
@@ -682,7 +680,6 @@
             "hoverBackground": "hl",
             "hoverInactiveBackground": "table",
             "Line.hoverBackground": "selBg",
-            "rowHeight": "28",
             "selectionBackground": "tree",
             "selectionForeground": "selFg",
             "selectionInactiveBackground": "table",
@@ -694,10 +691,6 @@
         },
         "LiveIndicator": {
             "color": "accent"
-        },
-        "macOSWindow.Title": {
-            "height": 30,
-            "heightSmall": 20
         },
         "MainMenu": {
             "background": "hc",
@@ -805,8 +798,7 @@
             },
             "SearchField": {
                 "background": "cs"
-            },
-            "separatorWidth": 6
+            }
         },
         "NewPSD.warning": "accent",
         "Notification": {
@@ -970,7 +962,6 @@
             },
             "background": "notif",
             "borderColor": "cs",
-            "borderWidth": 0,
             "inactiveBorderColor": "bg",
             "innerBorderColor": "second",
             "Header": {
@@ -1289,7 +1280,6 @@
             "selectedLabelShift": 0,
             "selectedTabPadInsets": "0,0,0,0",
             "shadow": "hc",
-            "tabHeight": 32,
             "tabInsets": "5,10,5,10",
             "tabSelectionArc": 4,
             "tabSelectionHeight": 2,
@@ -1316,7 +1306,6 @@
             "lightSelectionForeground": "activeFg",
             "lightSelectionInactiveBackground": "second",
             "lightSelectionInactiveForeground": "text",
-            "rowHeight": 32,
             "selectionBackground": "table",
             "selectionForeground": "activeFg",
             "selectionInactiveBackground": "table",
@@ -1334,7 +1323,6 @@
             "focusCellBackground": "table",
             "focusCellForeground": "activeFg",
             "foreground": "fg",
-            "height": 32,
             "hoverBackground": "hl",
             "separatorColor": "border"
         },
@@ -1478,7 +1466,6 @@
                 "tab.selected.background": "cs"
             },
             "Header": {
-                "height": 42,
                 "background": "second",
                 "borderColor": "second",
                 "inactiveBackground": "bg"
@@ -1517,7 +1504,6 @@
             "hoverBackground": "tree",
             "hoverInactiveBackground": "table",
             "modifiedItemForeground": "accent",
-            "rowHeight": 28,
             "selectionBackground": "accent50",
             "selectionForeground": "selFg",
             "selectionInactiveBackground": "tree",
@@ -1585,7 +1571,6 @@
                 "infoBanner": "accent"
             },
             "PackageSearch": {
-                "PackagesList.rowHeight": 28,
                 "PackageTag": {
                     "background": "excl",
                     "foreground": "fg",
@@ -1660,7 +1645,6 @@
                 "Commit": {
                     "currentBranchBackground": "cs",
                     "hoveredBackground": "tree",
-                    "rowHeight": 28,
                     "unmatchedForeground": "text"
                 }
             },

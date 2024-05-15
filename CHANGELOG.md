@@ -2,6 +2,12 @@
 
 # Neo Changelog
 
+## [0.4.2]
+### Changed
+- Improve neo light contrast, no longer use beige background
+### Fixed
+- Fixed the problem of search box being very tall
+
 ## [0.4.1]
 ### Fixed
 - Fix color parse error([#9](https://github.com/oovm/neo-intellij/issues/9))
