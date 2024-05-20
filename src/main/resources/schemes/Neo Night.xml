@@ -1,10 +1,8 @@
 <scheme name="Neo Night" version="142" parent_scheme="Darcula">
 	<option name="FONT_SCALE" value="1.0"/>
 	<metaInfo>
-		<property name="created">2020-09-09T12:25:37</property>
-		<property name="ide">idea</property>
-		<property name="ideVersion">2023.3.0.0</property>
-		<property name="modified">2023-09-29T21:26:32</property>
+		<property name="ide">JetBrainsClient</property>
+		<property name="ideVersion">2024.1.2.0.0</property>
 	</metaInfo>
 	<option name="LINE_SPACING" value="1.2"/>
 	<option name="EDITOR_FONT_SIZE" value="14"/>
@@ -44,30 +42,7 @@
 		<option name="DOCUMENTATION_COLOR" value="2f333d"/>
 		<option name="DOC_COMMENT_GUIDE" value="636d83"/>
 		<option name="DOC_COMMENT_LINK" value="56b6c2"/>
-		<option name="FILESTATUS_ADDED" value="98c379"/>
-		<option name="FILESTATUS_COPIED" value="98c379"/>
-		<option name="FILESTATUS_DELETED" value="59626f"/>
-		<option name="FILESTATUS_HIJACKED" value="c679dd"/>
-		<option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="59626f"/>
-		<option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="9da5b4"/>
-		<option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="ff6347"/>
-		<option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="ff6347"/>
-		<option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="ff6347"/>
-		<option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72a038"/>
-		<option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238"/>
-		<option name="FILESTATUS_IDEA_SVN_REPLACED" value="91b859"/>
-		<option name="FILESTATUS_MERGED" value="61aeef"/>
-		<option name="FILESTATUS_MODIFIED" value="e5c17c"/>
-		<option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="57b6c2"/>
-		<option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="57b6c2"/>
-		<option name="FILESTATUS_OBSOLETE" value="ffcb6b"/>
-		<option name="FILESTATUS_RENAMED" value="c679dd"/>
-		<option name="FILESTATUS_SUPPRESSED" value="abb2bf"/>
-		<option name="FILESTATUS_SWITCHED" value="61aeef"/>
-		<option name="FILESTATUS_UNKNOWN" value="f77669"/>
-		<option name="FILESTATUS_addedOutside" value="56b6c2"/>
-		<option name="FILESTATUS_changelistConflict" value="ff6347"/>
-		<option name="FILESTATUS_modifiedOutside" value="61aeef"/>
+
 		<option name="FOLDED_TEXT_BORDER_COLOR" value="282a36"/>
 		<option name="GUTTER_BACKGROUND" value="282c34"/>
 		<option name="INDENT_GUIDE" value="3c4049"/>
@@ -80,33 +55,7 @@
 		<option name="METHOD_SEPARATORS_COLOR" value="2e3c43"/>
 		<option name="MODIFIED_LINES_COLOR" value="61aeef"/>
 		<option name="MODIFIED_TAB_ICON" value="2979ff"/>
-		<option name="MT_ADDED" value="73c990"/>
-		<option name="MT_DELETED" value="ff6347"/>
-		<option name="MT_FILESTATUS_ADDED" value="98c379"/>
-		<option name="MT_FILESTATUS_COPIED" value="98c379"/>
-		<option name="MT_FILESTATUS_DELETED" value="59626f"/>
-		<option name="MT_FILESTATUS_HIJACKED" value="c679dd"/>
-		<option name="MT_FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="59626f"/>
-		<option name="MT_FILESTATUS_IDEA_FILESTATUS_IGNORED" value="9da5b4"/>
-		<option name="MT_FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="ff6347"/>
-		<option name="MT_FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="ff6347"/>
-		<option name="MT_FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="ff6347"/>
-		<option name="MT_FILESTATUS_MERGED" value="61aeef"/>
-		<option name="MT_FILESTATUS_MODIFIED" value="e5c17c"/>
-		<option name="MT_FILESTATUS_NOT_CHANGED_IMMEDIATE" value="57b6c2"/>
-		<option name="MT_FILESTATUS_NOT_CHANGED_RECURSIVE" value="57b6c2"/>
-		<option name="MT_FILESTATUS_RENAMED" value="c679dd"/>
-		<option name="MT_FILESTATUS_SUPPRESSED" value="abb2bf"/>
-		<option name="MT_FILESTATUS_SWITCHED" value="61aeef"/>
-		<option name="MT_FILESTATUS_UNKNOWN" value="f77669"/>
-		<option name="MT_FILESTATUS_addedOutside" value="56b6c2"/>
-		<option name="MT_FILESTATUS_changelistConflict" value="ff6347"/>
-		<option name="MT_FILESTATUS_modifiedOutside" value="61aeef"/>
-		<option name="MT_IDEA_FILESTATUS_IGNORED" value="9da5b4"/>
-		<option name="MT_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967"/>
-		<option name="MT_MODIFIED" value="e2c08d"/>
-		<option name="MT_RENAMED" value="6494ed"/>
-		<option name="MT_SUPPRESSED" value="abb2bf"/>
+
 		<option name="MnemonicIcon.background" value="3e4451"/>
 		<option name="MnemonicIcon.borderColor" value="3e4451"/>
 		<option name="MnemonicIcon.foreground" value="fffbf7"/>
@@ -592,7 +541,8 @@
 		</option>
 		<option name="DEFAULT_CLASS_REFERENCE">
 			<value>
-				<option name="FOREGROUND" value="c679dd"/>
+				<option name="FOREGROUND" value="e5c17c"/>
+				<option name="FONT_TYPE" value="2"/>
 			</value>
 		</option>
 		<option name="DEFAULT_COMMA">
@@ -698,7 +648,8 @@
 		</option>
 		<option name="DEFAULT_LABEL">
 			<value>
-				<option name="FOREGROUND" value="c3d3de"/>
+				<option name="FOREGROUND" value="57b6c2"/>
+				<option name="FONT_TYPE" value="1"/>
 			</value>
 		</option>
 		<option name="DEFAULT_LINE_COMMENT">
@@ -1009,6 +960,7 @@
 				<option name="FOREGROUND" value="c679dd"/>
 			</value>
 		</option>
+		<option name="Groovy method declaration" baseAttributes="METHOD_DECLARATION_ATTRIBUTES"/>
 		<option name="HAML_CLASS">
 			<value>
 				<option name="FOREGROUND" value="e5c17c"/>
@@ -1409,8 +1361,18 @@
 		<option name="JSP_DIRECTIVE_NAME" baseAttributes="DEFAULT_KEYWORD"/>
 		<option name="JULIA_ABSTRACT_TYPE_NAME" baseAttributes="DEFAULT_INTERFACE_NAME"/>
 		<option name="JULIA_BUILTIN_NAME" baseAttributes="DEFAULT_FUNCTION_CALL"/>
-		<option name="JULIA_FLOAT_LIT" baseAttributes="DEFAULT_PREDEFINED_SYMBOL"/>
+		<option name="JULIA_FLOAT_LIT">
+			<value>
+				<option name="FOREGROUND" value="57b6c2"/>
+				<option name="FONT_TYPE" value="2"/>
+			</value>
+		</option>
 		<option name="JULIA_KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER"/>
+		<option name="JULIA_MACRO_REFERENCE">
+			<value>
+				<option name="FOREGROUND" value="57b6c2"/>
+			</value>
+		</option>
 		<option name="JULIA_TYPE_NAME" baseAttributes="DEFAULT_CLASS_NAME"/>
 		<option name="JUPYTER_SELECTED_CELL">
 			<value>
@@ -2954,6 +2916,13 @@
 				<option name="EFFECT_TYPE" value="5"/>
 			</value>
 		</option>
+		<option name="NG.SIGNAL">
+			<value>
+				<option name="FOREGROUND" value="61aeef"/>
+				<option name="EFFECT_COLOR" value="61aeef"/>
+				<option name="EFFECT_TYPE" value="1"/>
+			</value>
+		</option>
 		<option name="NOT_TOP_FRAME_ATTRIBUTES">
 			<value>
 				<option name="BACKGROUND" value="6b727d"/>
@@ -3791,13 +3760,8 @@
 				<option name="EFFECT_TYPE" value="2"/>
 			</value>
 		</option>
-		<option name="Scala Predefined types">
-			<value>
-				<option name="FOREGROUND" value="a6b2c0"/>
-			</value>
-		</option>
-		<option name="Scala Type Alias" baseAttributes=""/>
-		<option name="Scala Type parameter" baseAttributes=""/>
+		<option name="Scala Type Alias" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES"/>
+		<option name="Scala Type parameter" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES"/>
 		<option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES"/>
 		<option name="Static property reference ID">
 			<value>
@@ -4072,6 +4036,24 @@
 			<value>
 				<option name="FOREGROUND" value="a7dbd8"/>
 				<option name="FONT_TYPE" value="1"/>
+			</value>
+		</option>
+		<option name="VALKYRIE.COMMENT_LINE">
+			<value>
+				<option name="FOREGROUND" value="8a980c"/>
+				<option name="FONT_TYPE" value="2"/>
+			</value>
+		</option>
+		<option name="VALKYRIE.SYM_STRUCTURE">
+			<value>
+				<option name="FOREGROUND" value="e5c17c"/>
+				<option name="EFFECT_COLOR" value="e5c17c"/>
+				<option name="EFFECT_TYPE" value="1"/>
+			</value>
+		</option>
+		<option name="VALKYRIE.SYM_TRAIT">
+			<value>
+				<option name="FOREGROUND" value="98c379"/>
 			</value>
 		</option>
 	</attributes>
