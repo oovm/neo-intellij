@@ -29,8 +29,8 @@ repositories {
 // https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin.html#snapshot-release
 dependencies {
     intellijPlatform {
-        // https://youtrack.jetbrains.com/articles/IDEA-A-2100662347/IntelliJ-IDEA-2025.1-Latest-Builds
-        intellijIdeaUltimate("251.17181.16", useInstaller = true)
+        // https://youtrack.jetbrains.com/articles/IDEA-A-2100662608/IntelliJ-IDEA-2026.1-Latest-Builds
+        intellijIdeaUltimate("261.21525.39", useInstaller = true)
         bundledPlugin("com.intellij.modules.json")
         bundledPlugin("org.toml.lang")
         bundledPlugin("org.intellij.plugins.markdown")
