@@ -3,6 +3,13 @@
 # Neo Changelog
 
 ## [Unreleased]
+## [0.5.0]
+### Changed
+- No more version restrictions([#16](https://github.com/oovm/neo-intellij/issues/16))
+### Fixed
+- Remove attributes that no longer exist in version 2026.1
+
+
 
 ## [0.4.2]
 ### Changed
