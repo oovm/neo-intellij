@@ -19,6 +19,12 @@ sourceSets["main"].java.srcDirs("src/main/gen")
 
 // Configure project's dependencies
 repositories {
+    maven {
+        url = uri("https://maven.aliyun.com/repository/public")
+    }
+    maven {
+        url = uri("https://maven.aliyun.com/repository/central")
+    }
     mavenCentral()
 
     intellijPlatform {
