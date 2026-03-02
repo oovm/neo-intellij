@@ -40,8 +40,6 @@ dependencies {
         bundledPlugin("com.intellij.modules.json")
         bundledPlugin("org.toml.lang")
         bundledPlugin("org.intellij.plugins.markdown")
-        // https://plugins.jetbrains.com/plugin/227-psiviewer/versions
-        instrumentationTools()
         // plugin("org.intellij.scala")
         // org.intellij.scala:2024.1.20,\
         // com.jetbrains.rust:241.25989.180,\
@@ -59,6 +57,10 @@ dependencies {
 // Set the JVM language level used to build the project.
 kotlin {
     jvmToolchain(21)
+}
+
+intellijPlatform {
+    buildSearchableOptions = false
 }
 
 // Configure Gradle Changelog Plugin - read more: https://github.com/JetBrains/gradle-changelog-plugin
